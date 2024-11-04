@@ -47,5 +47,8 @@
         "linter": "eslint"
       }
     }
+  },
+  "gcs": {
+    "bucket": "local-dev-cache-bucket-dvnfkf"
   }
 }
