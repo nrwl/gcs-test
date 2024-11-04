@@ -1,0 +1,19 @@
+{
+  "name": "test-3",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "test-3/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/test-3",
+        "main": "test-3/src/index.ts",
+        "tsConfig": "test-3/tsconfig.lib.json",
+        "assets": ["test-3/*.md"]
+      }
+    }
+  }
+}
